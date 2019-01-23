@@ -47,7 +47,11 @@ Rails.application.configure do
   # config.action_cable.allowed_request_origins = [ 'http://example.com', /http:\/\/example.*/ ]
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
+<<<<<<< HEAD
   config.force_ssl = true
+=======
+  # config.force_ssl = true
+>>>>>>> 292c9a0f5fe9b070a468abba2ee45b7fb3520c3d
 
   # Use the lowest log level to ensure availability of diagnostic information
   # when problems arise.
@@ -61,7 +65,11 @@ Rails.application.configure do
 
   # Use a real queuing backend for Active Job (and separate queues per environment)
   # config.active_job.queue_adapter     = :resque
+<<<<<<< HEAD
   # config.active_job.queue_name_prefix = "sample_app_#{Rails.env}"
+=======
+  # config.active_job.queue_name_prefix = "blog_#{Rails.env}"
+>>>>>>> 292c9a0f5fe9b070a468abba2ee45b7fb3520c3d
 
   config.action_mailer.perform_caching = false
 

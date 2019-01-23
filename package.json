@@ -1,7 +1,13 @@
 {
+<<<<<<< HEAD
   "name": "sample_app",
   "private": true,
   "dependencies": {
     "bulma": "^0.7.2"
   }
+=======
+  "name": "blog",
+  "private": true,
+  "dependencies": {}
+>>>>>>> 292c9a0f5fe9b070a468abba2ee45b7fb3520c3d
 }
